@@ -1,0 +1,214 @@
+
+
+.body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+a {
+  color: white;
+}
+
+
+a:visited {
+  color: #c8c6a7;
+}
+
+a:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.navbar {
+  background-color: #435560;
+  color: #c8c6a7;
+  padding: 0 4% 1%;
+}
+
+.navbar-toggler-icon {
+  border-color:#c8c6a7;
+  background-color: #6e7c7c;
+}
+
+figcaption {
+  font-size: .8rem;
+}
+
+.tindice-logo {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  color: #c8c6a7;
+  padding-top: 1%;
+}
+.nav-link {
+  color: #c8c6a7;
+}
+.title {
+  background-image: linear-gradient(to right, #435560 , #6e7c7c);
+  background-color: #435560;
+  color: #c8c6a7;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  padding: 3% 4% 7%;
+}
+
+.slogan{
+  margin: auto;
+  line-height: 4;
+  padding: 1% 2% 1%;
+  text-align: right;
+}
+
+.encounter {
+  width: 50%;
+  height: auto;
+  transform:rotate(21deg);
+  padding-bottom: 7%;
+  padding-top: 1%;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .encounter {
+    transform: rotate(0);
+    padding-top: 3%
+  }
+  .slogan {
+    text-align: center;
+  }
+}
+.features {
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 2;
+  text-align: center;
+  background-color: #c8c6a7;
+  color: #435560;
+  padding: 5% 3% 5%;
+}
+
+.feature-icon {
+  color: #92967d;
+  font-size: 5rem;
+  padding: 2% 0 7%;
+}
+
+.feature-header {
+  margin: 1% 0 5%;
+}
+
+.feature-description {
+  padding: 3% 5% 0;
+}
+
+.feature-card {
+  padding: 2% 3% 5%;
+}
+
+.dice {
+  width: 40%;
+  height: auto;
+  padding: 3% 0 0;
+}
+
+.testimonials {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #6e7c7c;
+  color: #c8c6a7;
+  text-align: center;
+  min-height: 50rem;
+  margin: auto;
+}
+
+.review-text{
+  padding: 1% 5% 1%;
+}
+
+.review-img {
+  padding: 7% 0 7%;
+}
+
+.carousel {
+  min-height: 50rem;
+}
+.carousel-item {
+  padding: 10% 10% 0;
+    justify-content: center;
+}
+.carousel-inner {
+  margin: auto;
+  justify-content: center;
+}
+.review-img {
+  width: 10%;
+  border-radius: 100%;
+}
+.pricing {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #92967d;
+  color: #435560;
+  text-align: center;
+  padding: 4% 3% 4%;
+  line-height: 3;
+
+}
+.pricing-info {
+  padding: 0 0 7%;
+}
+.sword {
+  width: 37%;
+}
+.sword-cap {
+  padding-bottom: 3%;
+}
+.pricing-description {
+  text-align: right;
+  line-height: 4;
+  padding-top: 5%;
+}
+.card {
+  background-color: #c8c6a7;
+  padding: 3% 4% 3%;
+}
+.card-title {
+  padding-top: 7%;
+  padding-bottom: 15%;
+}
+.card-text {
+  text-align: center;
+  color: #6e7c7c;
+}
+.download {
+  font-family: 'Ubuntu', sans-serif;
+  background-image: linear-gradient(to left, #435560 , #6e7c7c);
+  background-color: #435560;
+  color: #92967d;
+  padding: 5% 10% 5%;
+  text-align: center;
+  line-height: 4;
+}
+.btn {
+  padding: 1% 4% 1%;
+  margin: 2% 5% 2%;
+}
+.viking {
+  width: 60%;
+}
+.cta {
+  margin-top:10%;
+}
+.footer {
+  background-color: #c8c6a7;
+  color: #6e7c7c;
+  text-align: center;
+  padding: 5% 0 1%;
+  line-height: 2;
+}
+.cta-icon {
+  padding: 1% 5% 5%;
+}
