@@ -212,7 +212,7 @@ figcaption {
   .slogan {
     text-align: center;
   }
-  #pricing > #row > .pricing-description {
+  .pricing-description {
     text-align: center;
   }
 }
