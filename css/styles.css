@@ -74,18 +74,7 @@ figcaption {
   padding-top: 1%;
   text-align: center;
 }
-@media (max-width: 1000px) {
-  .encounter {
-    transform: rotate(0);
-    padding-top: 3%
-  }
-  .slogan {
-    text-align: center;
-  }
-  .pricing-description {
-    text-align: center;
-  }
-}
+
 .features {
   font-family: 'Fira Sans', sans-serif;
   line-height: 2;
@@ -214,4 +203,16 @@ figcaption {
 }
 .cta-icon {
   padding: 1% 5% 5%;
+}
+@media (max-width: 1000px) {
+  .encounter {
+    transform: rotate(0);
+    padding-top: 3%
+  }
+  .slogan {
+    text-align: center;
+  }
+  .pricing-description {
+    text-align: center;
+  }
 }
